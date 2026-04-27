@@ -2,20 +2,13 @@ import json
 import requests
 from bs4 import BeautifulSoup
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "x-nextjs-data": "1",
+    "Referer": "https://nhathuoclongchau.com.vn/danh-muc/thuoc-di-ung",
 }
 url="https://api.nhathuoclongchau.com.vn/lccus/search-product-service/api/products/ecom/product/search/cate"
 list=[
-    "thuoc/thuoc-di-ung",
-    "thuoc/thuoc-giai-doc-khu-doc-va-ho-tro-cai-nghien",
-    "thuoc/thuoc-da-lieu",
-    "thuoc/mieng-dan-cao-xoa-dau",
-    "thuoc/co-xuong-khop",
-    "thuoc/thuoc-bo-and-vitamin",
-    "thuoc/thuoc-dieu-tri-ung-thu",
-    "thuoc/thuoc-giam-dau-ha-sot-khang-viem",
-    "thuoc/thuoc-ho-hap",
-    "thuoc/thuoc-khang-sinh-khang-nam",
     "thuoc/thuoc-mat-tai-mui-hong",
     "thuoc/thuoc-than-kinh",
     "thuoc/thuoc-tiem-chich-and-dich-truyen",
