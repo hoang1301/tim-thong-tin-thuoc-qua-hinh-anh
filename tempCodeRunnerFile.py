@@ -1,1 +1,0 @@
- "thuoc/thuoc-dieu-tri-ung-thu"

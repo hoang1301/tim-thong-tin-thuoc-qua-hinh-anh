@@ -5,7 +5,7 @@ import json
 load_dotenv()
 api_key = os.getenv("api")
 client = genai.Client(api_key=api_key)
-file=client.files.upload(file="DSC_099842_74c1fc532a.webp")
+file=client.files.upload(file="thuoc.webp")
 prompt="""
 analyze this medicine box image. Extract the following information. Structure the output as a clean JSON object.
 Desired Fields:
