@@ -1,3 +1,5 @@
+__pycache__/
+*.pyc
+data/
+es_data_backup.tar
 .env
-ocr.py
-gemini.py
