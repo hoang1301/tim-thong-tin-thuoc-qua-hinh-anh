@@ -3,3 +3,4 @@ __pycache__/
 data/
 es_data_backup.tar
 .env
+test.py
