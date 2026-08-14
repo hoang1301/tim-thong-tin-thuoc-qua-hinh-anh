@@ -188,9 +188,7 @@ if __name__ == "__main__":
     infor = ''
     interac = ''
     
-    # Loop qua từng ảnh trong data
     for candidates in data:
-        # Loop qua TỪNG THUỐC thu được trong ảnh đó
         for single_drug in candidates:
             res = searchh(single_drug)
             if res:
